@@ -1,0 +1,28 @@
+#poster{
+    display: grid;
+    place-items: center;
+}
+
+#title_poster{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 13rem;
+}
+
+#poster_items{
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    max-width: 40rem;
+}
+
+#poster_one{
+    margin: 0;
+    width: 20rem;
+}
+
+#poster_two{
+    float: inline-end;
+    margin: 0;
+    width: 20rem;
+}

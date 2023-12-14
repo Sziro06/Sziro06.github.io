@@ -1,0 +1,35 @@
+#chance{
+    display: grid;
+    place-items: center;
+}
+
+#title_chance{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 10rem;
+}
+
+#chance_items{
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    max-width: 40rem;
+}
+
+#chance_movie{
+    z-index: -1;
+    width: 40rem;
+    height: 22.2rem;
+}
+
+#chance_subtitle{
+    font-size: larger;
+}
+
+#chance_text{
+    font-size: 1.1rem;
+    width: 40rem;
+    white-space: pre-line;
+    column-count: 3;
+    column-rule: 1px solid black;
+} 

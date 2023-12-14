@@ -1,0 +1,27 @@
+#fyrstikkalleen{
+    display: grid;
+    place-items: center;
+}
+
+#title_fyrstikkalleen{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 15.6rem;
+}
+
+#fyrstikkalleen_items{
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    max-width: 40rem;
+}
+
+#fyrstikkalleen_movie{
+    z-index: -1;
+    width: 40rem;
+    height: 22.2rem;
+}
+
+#fyrstikkalleen_description a{
+    color: rgb(51, 51, 255);
+}

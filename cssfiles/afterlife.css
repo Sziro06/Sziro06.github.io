@@ -1,0 +1,29 @@
+#afterlife{
+    display: grid;
+    place-items: center;
+}
+
+#title_afterlife{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 16.8rem;
+}
+
+#afterlife_items{
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    max-width: 40rem;
+}
+
+#afterlife_trailer{
+    margin: 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#afterlife_movie{
+    z-index: -1;
+    width: 40rem;
+    height: 22.2rem;
+}

@@ -1,0 +1,42 @@
+#revy{
+    display: grid;
+    place-items: center;
+}
+
+#title_revy{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 15.5rem;
+    margin-top: 5rem;
+}
+
+#revy_items{
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    max-width: 40rem;
+}
+
+#revy_movie{
+    z-index: -1;
+    width: 40rem;
+    height: 22.2rem;
+}
+
+#revy_description{
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+}
+
+#revy_subtitle{
+    font-size: larger;
+}
+
+#revy_text{
+    font-size: 1.1rem;
+    width: 40rem;
+    white-space: pre-line;
+    column-count: 3;
+    column-rule: 1px solid black;
+} 

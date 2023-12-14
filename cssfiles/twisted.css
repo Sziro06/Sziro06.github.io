@@ -1,0 +1,41 @@
+#twisted{
+    display: grid;
+    place-items: center;
+}
+
+#title_twisted{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 12.5rem;
+}
+
+#twisted_items{
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    max-width: 40rem;
+}
+
+#twisted_movie{
+    z-index: -1;
+    width: 40rem;
+    height: 22.2rem;
+}
+
+#twisted_poster{
+    width: 20rem;
+}
+
+#twisted_subtitle{
+    font-size: larger;
+}
+
+#twisted_text{
+    font-size: 1.1rem;
+    float: inline-end;
+    width: 20rem;
+    text-align: center;
+    margin: 0;
+    white-space: pre-line;
+    line-height: 1.286rem;
+}
