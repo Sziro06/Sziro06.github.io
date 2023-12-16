@@ -1,7 +1,7 @@
 let countDown = document.getElementById('countdown');
 let wholePage = document.getElementById('whole_page');
 
-wholePage.style.display =  'none';
+// wholePage.style.display =  'none';
 
 
 countDown.width = window.innerWidth;
