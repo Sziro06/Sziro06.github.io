@@ -35,3 +35,20 @@
     column-count: 3;
     column-rule: 1px solid black;
 } 
+
+@media screen and (max-width: 700px) { 
+    #title_documentary{
+        padding: 0.5rem 5rem;
+    }
+    
+    #documentary_items{
+        max-width: 30rem;
+    }
+    #documentary_movie{
+        width: 30rem;
+        height: 17rem;
+    }
+    #documentary_text{
+        width: 30rem;
+    }
+}

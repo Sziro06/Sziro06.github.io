@@ -29,10 +29,10 @@
 }
 
 @media screen and (max-width: 700px) { 
-    #poster_items{
-        padding: 2rem;
-        background-color: rgb(255, 255, 255);
-        border: 2px solid black;
-        max-width: 40rem;
+    #poster_one, #poster_two{
+        width: 15rem;
+    }
+    #title_poster{
+        padding: 0.5rem 8rem;
     }
 }

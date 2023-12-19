@@ -17,7 +17,7 @@
     max-width: 40rem;
 }
 
-#fyrstikkalleen_movie{
+#fyrstikkalleen_trailer{
     z-index: -1;
     width: 40rem;
     height: 22.2rem;
@@ -25,4 +25,18 @@
 
 #fyrstikkalleen_description a{
     color: rgb(51, 51, 255);
+}
+
+@media screen and (max-width: 700px) { 
+    #title_fyrstikkalleen{
+        padding: 0.5rem 10.75rem;
+    }
+    
+    #fyrstikkalleen_items{
+        max-width: 30rem;
+    }
+    #fyrstikkalleen_trailer{
+        width: 30rem;
+        height: 17rem;
+    }
 }
