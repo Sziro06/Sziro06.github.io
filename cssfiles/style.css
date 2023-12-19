@@ -3,15 +3,16 @@ body{
     box-sizing: border-box;
 }
 
-h1{
+#title{
     color: rgb(255, 255, 255);
     font-size: 5rem;
-    width: 100%;
     border-bottom: 2px solid rgb(255, 255, 255);
     text-align: center;
+    display: none;
 }
 
 #countdown{
     position: absolute;
     z-index: 2;
 }
+
