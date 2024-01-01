@@ -52,3 +52,23 @@
         width: 30rem;
     }
 }
+
+@media screen and (max-width: 500px) { 
+    #title_documentary{
+        padding: 0.5rem 1.2rem;
+        font-size: 1.3rem;
+    }
+
+    #documentary_items{
+        max-width: 20rem;
+    }
+    #documentary_movie{
+        width: 20rem;
+        height: 13rem;
+    }
+
+    #documentary_text{
+        font-size: 0.62rem;
+        width: 20rem;
+    }
+}

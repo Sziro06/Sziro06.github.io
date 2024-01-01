@@ -50,3 +50,25 @@
         padding: 0.5rem 5rem;
     }
 }
+
+@media screen and (max-width: 500px) { 
+    #title_chance{
+        padding: 0.5rem 0.15rem;
+    }
+
+    #chance_items{
+        max-width: 20rem;
+    }
+    #chance_movie{
+        width: 20rem;
+        height: 13rem;
+    }
+    #chance_description{
+        font-size: 1.5rem;
+    }
+
+    #chance_text{
+        font-size: 0.7rem;
+        width: 20rem;
+    }
+}

@@ -40,3 +40,25 @@
         height: 17rem;
     }
 }
+
+@media screen and (max-width: 500px) { 
+    #title_fyrstikkalleen{
+        padding: 0.5rem 5.75rem;
+    }
+
+    #fyrstikkalleen_trailer_title{
+        font-size: 1.5rem;
+    }
+    
+    #fyrstikkalleen_items{
+        max-width: 20rem;
+    }
+    #fyrstikkalleen_trailer{
+        width: 20rem;
+        height: 13rem;
+    }
+
+    #fyrstikkalleen_description{
+        margin: 0;
+    }
+}

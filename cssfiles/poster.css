@@ -36,3 +36,22 @@
         padding: 0.5rem 8rem;
     }
 }
+
+@media screen and (max-width: 500px) { 
+    #title_poster{
+        padding: 0.5rem 3rem;
+    }
+
+    #poster_one, #poster_two{
+        width: 10rem;
+    }
+
+    #poster_items{
+        max-width: 20rem;
+    }
+
+    #poster_text{
+        font-size: 0.7rem;
+        width: 20rem;
+    }
+}

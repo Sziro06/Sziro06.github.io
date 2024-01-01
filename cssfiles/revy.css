@@ -29,10 +29,6 @@
     margin: 0;
 }
 
-#revy_subtitle{
-    font-size: larger;
-}
-
 #revy_text{
     font-size: 1.1rem;
     width: 40rem;
@@ -55,5 +51,27 @@
     }
     #revy_text{
         width: 30rem;
+    }
+}
+
+@media screen and (max-width: 500px) { 
+    #title_revy{
+        padding: 0.5rem 5.5rem;
+    }
+
+    #revy_items{
+        max-width: 20rem;
+    }
+    #revy_movie{
+        width: 20rem;
+        height: 13rem;
+    }
+    #revy_description{
+        font-size: 1.5rem;
+    }
+
+    #revy_text{
+        font-size: 0.7rem;
+        width: 20rem;
     }
 }
