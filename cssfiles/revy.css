@@ -6,7 +6,7 @@
 #title_revy{
     border-bottom: 2px solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
-    padding: 0.5rem 15.5rem;
+    padding: 0.5rem 7.3rem;
     margin-top: 5rem;
 }
 
@@ -21,12 +21,6 @@
     z-index: -1;
     width: 40rem;
     height: 22.2rem;
-}
-
-#revy_description{
-    text-align: center;
-    font-size: 2rem;
-    margin: 0;
 }
 
 #revy_text{

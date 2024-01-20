@@ -5,7 +5,7 @@ body{
 
 #title{
     color: rgb(255, 255, 255);
-    font-size: 5rem;
+    font-size: 4rem;
     border-bottom: 2px solid rgb(255, 255, 255);
     text-align: center;
 }
@@ -13,5 +13,9 @@ body{
 #countdown{
     position: absolute;
     z-index: 2;
+}
+
+#whole_page{
+    font-family: sans-serif;
 }
 
