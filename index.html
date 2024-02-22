@@ -4,98 +4,274 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hüseyin's portfolio</title>
-    <link rel="shortcut icon" href="img/logo.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/cer.css">
-    <link rel="stylesheet" href="css/projects.css">
-    <link rel="stylesheet" href="css/footer.css">
+
+    <link rel="stylesheet" href="cssfiles/style.css">
+    <link rel="stylesheet" href="cssfiles/about_me.css">
+    <link rel="stylesheet" href="cssfiles/twisted.css">
+    <link rel="stylesheet" href="cssfiles/stovner.css">
+    <link rel="stylesheet" href="cssfiles/documentary.css">
+    <link rel="stylesheet" href="cssfiles/nissestua.css">
+    <link rel="stylesheet" href="cssfiles/chancetochange.css">
+    <link rel="stylesheet" href="cssfiles/revy.css">
+    <link rel="stylesheet" href="cssfiles/lyddesign.css">
+    <link rel="stylesheet" href="cssfiles/poster.css">
+    <link rel="stylesheet" href="cssfiles/fyrstikkalleeninvaders.css">
+    <link rel="stylesheet" href="cssfiles/afterlife.css">
 
 </head>
 <body>
 
-    <!--profile -->
-    <header>
-        <img id="profile_img" src="img/profil.jpg" alt="Picture of me">
-        <h1>Profil</h1>
-        <p>
-            Hello! I am Hüseyin Özdemir, 17-year old student at 
-            Fyrstikkalleen college in Oslo, Norway. I am born in Norway, with Turkish 
-            nationality. I really enjoy writing screenplays and editing what I have 
-            produced in school, in my spare time. We have a large TV studio at my 
-            school and in some projects I use the various parts of the studio. From 
-            time to time I set up the studio, change the lighting, check if the sound 
-            is good from the sound mixer and mix between cameras from the camera mixer.
-            Take a look at some of my projects.
-        </p>
-    </header>
+    <!-- <video id="countdown" src="videos/countdown.mp4" autoplay muted></video> -->
 
-    <!-- certifications -->
-    <div id="certifications">
-        <h3></h3>
-        <p>If you click on one of these certifications you can download the pdf version</p>
+    <div id="whole_page">
+        <h1 id="title">Welcome to Hüseyin's portfolio</h1>
 
-        <div id="certification_grid">
-            <div id="kursbevis_tv">
-                <a href="kursbevis/KURSBEVIS_TV-produksjon_Hüseyin.pdf" download="TV-production certification"><img class="kursbevis" src="kursbevis/tv_produksjon.jpg" alt=""></a>
+        <!-- About me part -->
+        <div id="me">
+            <div id="me_items">
+                <div id="title_me">About me</div>
+                <div id="me_description">Hello! I am Hüseyin Özdemir, 17 year old student at 
+                    Fyrstikkalleen collage in Oslo, Norway. I am born in Norway, with Turkish 
+                    nationality. I really enjoy writing screenplays and editing what I have 
+                    produced in school, in my spare time. We have a large TV studio at my 
+                    school and in some projects I use the various parts of the studio. From 
+                    time to time I set up the studio, change the lighting, check if the sound 
+                    is good from the sound mixer and mix between cameras from the camera mixer.
+                    Take a look at some of mye projects. click to download <a href="CV.pdf" download="Hüseyin Özdemir CV/resume">CV/resume.</a></div>
+            </div>
+        </div>
+
+        <!-- Twisted part -->
+        <div id="twisted">
+            <h2 id="title_twisted">TWISTED short movie</h2>
+            
+            <div id="twisted_items">
+                <embed id="twisted_movie" src="https://player.vimeo.com/video/859462769">
+                <!-- <video id="twisted_movie" src="videos/twisted.mp4" controls></video> -->
+                <img id="twisted_poster" src="images/twistedmovieposter.png" alt="Twisted movie poster">
+                <p id="twisted_text">
+                    <b id="twisted_subtitle">Pre production</b>
+
+                    Idea development and script writing
+                    - Hüseyin Özdemir
+                    - Martin Harsem
+                    - Nicholas Herrera Offenberg
+                    - Krishal Pyakurel
+                    - Henrik Solberg Hamre
+
+
+                    <b id="twisted_subtitle">Production</b>
+
+                    Camera operator
+                    - Martin Harsem
+
+                    <b id="twisted_subtitle">Post production</b>
+                        
+                    Editor and graphic
+                    - Hüseyin Özdemir
+                </p>
+            </div>
+        </div>
+
+        <!-- Bydel Stovner -->
+        <div id="stovner">
+            <h2 id="title_stovner">Video of Stovner</h2>
+            
+            <div id="stovner_items">
+                <embed id="stovner_video" src="https://player.vimeo.com/video/899078674">
+                    <p id="stovner_text"><b id="stovner_subtitle">Pre production</b>
+
+                        Idea development and script writing
+                        - Hüseyin Özdemir
+                        
+                        <b id="stovner_subtitle">Production</b>
+
+                        Director
+                        - Joele Flaka
+                        Camera operator
+                        - Christian Storhaugen, Henrik Hamre
+                        <b id="stovner_subtitle">Post production</b> 
+
+                        Editor
+                        - Berat Karaagac
+                        - Hüseyin Özdemir
+                        - Joele Flaka
+                    </p>
+            </div>
+        </div>
+        <!-- Documentary part -->
+        <div id="documentary">
+            <h2 id="title_documentary">Documentary of Ella Marie</h2>
+
+            <div id="documentary_items">
+                <embed id="documentary_movie" src="https://player.vimeo.com/video/862015414">
+                <!-- <video id="documentary_movie" src="videos/ellaminipotrett.mp4" controls></video> -->
+                <p id="documentary_text"><b id="documentary_subtitle">Pre production</b>
+
+                    Idea development 
+                    and script
+                    - Hüseyin Özdemir
+
+                    <b id="documentary_subtitle">Production</b>
+
+                    Camera operator
+                    - Joele Flaka, Petra Sofie
+                    Director
+                    - Hüseyin Özdemir
+                    <b id="documentary_subtitle">Post production</b>
+
+                    Editor
+                    - Hüseyin Özdemir
+                </p>
+            </div>
+        </div>
+
+        <!-- Nissestua part -->
+        <div id="nissestua">
+            <h2 id="title_nissestua">Nissestua trailer</h2>
+
+            <div id="nissestua_items">
+                <embed id="nissestua_trailer" src="https://player.vimeo.com/video/900099383">
+                
                 <br>
-                <a id="tv_studio_badge" href="#project_title">TV</a>
-            </div>
+                <br>
 
-            <div id="kursbevis_grafisk">
-                <a href="kursbevis/kursbevis_grafisk_huseyin.pdf" download="Graphic design certification"><img class="kursbevis" src="kursbevis/grafisk.jpg" alt=""></a>
-                <a class="fa fa-paint-brush" id="graphic_badge" href="#project_title"></a>
+                <b id="nissestua_subtitle">Nissestua trailer</b>
+                <p id="nissestua_description">I created a trailer for my class TV 
+                    broadcast. It wasn't a serious project. I only had three hours for it, 
+                    so it's not perfect, but I enjoyed making the trailer.</p>
+
+                <b id="nissestua_subtitle">Nissestua TV broadcast</b>
+                <p id="nissestua_description">My entire class produced a TV broadcast for 
+                    the entire school. It took us one month to plan and produce something 
+                    interesting for F21. We discussed what, how, and most importantly, why 
+                    we were making this video for our school. We carefully considered what 
+                    the target audience wanted from us. My role in this broadcast was to 
+                    develop ideas, edit the Grandiosa video, and ensure that we had all the 
+                    necessary equipment. Here is the link for our 
+                    <a href="https://f21.tv/nissestua-2023/" target="_blank">TV broadcast</a></p>
+
             </div>
-            <div id="kursbevis_street">
-                <a href="kursbevis/KURSBEVIS_Street photography_Hüseyin.pdf" download="Street photography certification"><img class="kursbevis" src="kursbevis/street_photography.jpg" alt=""></a>
-                <a class="fa fa-camera" id="photography_badge" href="#project_title"></a>
+        </div>
+
+        <!-- Chance to change -->
+        <div id="chance">
+            <h2 id="title_chance">Chance to Change short movie</h2>
+            <div id="chance_items">
+                <embed id="chance_movie" src="https://www.youtube.com/embed/yxhCmpthm9g" >
+                <!-- <video id="chance_movie" src="videos/chancetochange.mp4" controls></video> -->
+
+                <p id="chance_text"><b id="chance_subtitle">Pre production</b>
+
+                    Idea development and script
+                    - Hüseyin Özdemir
+                    <b id="chance_subtitle">Production</b>
+
+                    Camera operator
+                    - Hüseyin Özdemir
+                    <b id="chance_subtitle">Post production</b>
+
+                    Editor
+                    - Hüseyin Özdemir
+                </p>
+
+            </div>
+        </div>
+
+        <!-- Revy Audition -->
+
+        <div id="revy">
+            <h2 id="title_revy">Revy audition - one minute short movie</h2>
+
+            <div id="revy_items">
+                <embed id="revy_movie" src="https://player.vimeo.com/video/781421355">
+                <!-- <video src="videos/Revy Audition.mp4" id="revy_movie" controls></video> -->
+                <p id="revy_text"><b id="revy_subtitle">Pre production</b>
+
+                    Idea development
+                    - Hüseyin Özdemir
+                    - Diana Ahmedi
+                    - Vasco Nunes
+                    - Amanda Kornelie 
+                    <b id="revy_subtitle">Production</b>
+
+                    Camera operator
+                    - Hüseyin Özdemir
+                    - Diana Ahmedi
+                    - Vasco Nunes
+                    - Amanda Kornelie
+                    <b id="revy_subtitle">Post production</b>
+                    
+                    Editor
+                    - Hüseyin Özdemir
+                    (Editing in Premiere Pro)
+                </p>
+
+            </div>
+        </div>
+
+        <!-- Lyddesign part -->
+        <div id="lyddesign">
+            <h2 id="title_lyddesign">Sound design trailer</h2>
+
+            <div id="lyddesign_items">
+                <embed id="lyddesign_trailer" src="https://player.vimeo.com/video/901994815">
+                <h4 id="lyddesign_description">I had a school assignment where I added,
+                    modified, and mixed sounds for a trailer. I chose "The Lego Movie" trailer 
+                    and included sounds from various websites that offer free sound effects. 
+                    I mixed them using Adobe Audition.</h4>
+            </div>
+        </div>
+
+        <!-- Posters -->
+        <div id="poster">
+            <h2 id="title_poster">Øya Festivalen poster</h2>
+
+            <div id="poster_items">
+                <img id="poster_one" src="images/festivalplakat.jpg" alt="Poster of øya Festival">
+                <img id="poster_two" src="images/festivalplakattwo.jpg" alt="Poster of øya Festival">
+                <h4 style="text-align: center;">I was given a school assignment to make posters for the Øya Festival.</h4>
+            </div>
+        </div>
+
+        <!-- F21 Invaders -->
+
+        <div id="fyrstikkalleen">
+            <h2 id="title_fyrstikkalleen">F21 Invaders</h2>
+
+            <div id="fyrstikkalleen_items">
+                <embed id="fyrstikkalleen_trailer" src="https://www.youtube.com/embed/AecKJIhIpVY">
+                <!-- <video src="videos/fyrstikkalleeninvaders.mp4" id="fyrstikkalleen_movie" controls></video> -->
+                <h4 id="fyrstikkalleen_description">
+                    F21 Invaders is a game I made from scratch. 
+                    I made the graphics, coded the game in html, css and JS. 
+                    I was inspired by the game Space Invaders, and made the same game but in my own version. 
+                    Here is mye link to my <a target="_blank" href="https://github.com/Sziro06/F21_Invaders">github account.</a>
+                </h4>
+            </div>
+        </div>
+
+        <!-- After Life -->
+        <div id="afterlife">
+            <h2 id="title_afterlife">After Life - Trailer</h2>
+            <div id="afterlife_items">
+
+                <embed id="afterlife_trailer" src="https://player.vimeo.com/video/888428073">
+                <!-- <video src="afterlife.mp4" id="afterlife_movie" controls></video> -->
+
+                <h4 id="afterlife_description">
+                    After Life is a game I created with a group. 
+                    My role was to design the 3D graphics for the game, including the buildings 
+                    and a sketch of the world. I also had the task to creating a trailer. I made 
+                    the trailer in Blender and Premiere Pro.
+                </h4>
             </div>
         </div>
     </div>
 
 
-    <!-- projects -->
-    <h3 id="project_title">Projects</h3>
-
-    <div id="projects">
-        <div class="project_grid" id="scripts"><a href="html/screenplay.html">Screenplay</a></div>
-        <div class="project_grid" id="short_movies"><a href="html/movies.html">Productions</a></div>
-        <div class="project_grid locked" id="animation"><a href="#">Animations /<br>motion graphic</a></div>
-        <div class="project_grid locked" id="applications"><a href="#">Applications</a></div>
-        <div class="project_grid locked" id="cameras"><a href="#">Camera</a></div>
-        <div class="project_grid locked" id="tv-studio"><a href="#">TV-studio<br><i id="tv_studio_badge_grid">TV</i></a></div>
-        <div class="project_grid locked" id="photography"><a href="#">Photography<br><i class="fa fa-camera" id="photography_badge_grid"></i></a></div>
-        <div class="project_grid locked" id="graphic"><a href="#">3D Graphic</a></div>
-        <div class="project_grid locked" id="posters"><a href="#">Posters<br><i class="fa fa-paint-brush" id="graphic_badge_grid"></i></a></div>
-        <div class="project_grid locked" id="games"><a href="#">Games</a></div>
-        <div class="project_grid locked" id="#"></div>
-        <div class="project_grid locked" id="#"></div>
-    </div>
-
-    <footer>
-        <div id="madeby"><h5>Created and developed by Hüseyin Özdemir</h5></div>
-        <img id="logo" src="img/logo.png" alt="logo">
-        <a id="cv" href="CV.pdf" download="Hüseyin Özdemir CV/resume">Click to download CV/resume</a>
-        <div id="contact_information">
-            <div id="ask_questions">Contact information:</div>
-            <div id="tlf">Phone number: 96685644</div>
-            <div>Gmail account: <a id="gmail" href="mailto:huoea071@gmail.com">huoea071@gmail.com</a></div>
-        </div>
-        <div id="accounts">
-            <div><a target="_blank" href="https://www.linkedin.com/in/h%C3%BCseyin-%C3%B6zdemir-5b9490272/">Linkedin <img id="linkedin" src="img/linkedin.jpeg" alt="linkedin log"></a></div>
-            <div><a target="_blank" href="https://vimeo.com/user126359351">Vimeo <img id="vimeo" src="img/vimeo.png" alt="vimeo logo"></a></div>
-        </div>
-    </footer>
-
-    <script src="main.js"></script>
+    <script type="module" src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="animation.js"></script>
 </body>
 </html>
-
-
-<!-- <div class="movies"><embed src="https://player.vimeo.com/video/859462769"></div>
-     <div class="movies"><embed src="https://player.vimeo.com/video/899078674"></div>
-     <div class="movies"><embed src="https://player.vimeo.com/video/862015414"></div>
-     <div class="movies"><embed src="https://player.vimeo.com/video/900099383"></div>
-     <div class="movies"><embed src="https://player.vimeo.com/video/888424248"></div>
-     <div class="movies"><embed src="https://player.vimeo.com/video/781421355"></div> -->

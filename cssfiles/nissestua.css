@@ -1,0 +1,36 @@
+#nissestua{
+    display: grid;
+    place-items: center;
+    margin-top: 4rem;
+}
+
+#title_nissestua{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 14.8rem;
+}
+
+#nissestua_items{
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    max-width: 40rem;
+}
+
+#nissestua_trailer{
+    z-index: -1;
+    width: 40rem;
+    height: 22.2rem;
+}
+
+#nissestua_subtitle{
+    font-size: larger;
+}
+
+#nissestua_description{
+    margin-top: 0;
+}
+
+#nissestua_description a{
+    color: rgb(5, 109, 174);
+}

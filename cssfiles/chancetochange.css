@@ -1,0 +1,74 @@
+#chance{
+    display: grid;
+    place-items: center;
+    margin-top: 4rem;
+}
+
+#title_chance{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 10rem;
+}
+
+#chance_items{
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    max-width: 40rem;
+}
+
+#chance_movie{
+    z-index: -1;
+    width: 40rem;
+    height: 22.2rem;
+}
+
+#chance_subtitle{
+    font-size: larger;
+}
+
+#chance_text{
+    font-size: 1.1rem;
+    width: 40rem;
+    white-space: pre-line;
+    column-count: 3;
+    column-rule: 1px solid black;
+} 
+
+@media screen and (max-width: 700px) { 
+    #chance_items{
+        max-width: 30rem;
+    }
+    #chance_text{
+        width: 30rem;
+    }
+    #chance_movie{
+        width: 30rem;
+        height: 15rem;
+    }
+    #title_chance{
+        padding: 0.5rem 5rem;
+    }
+}
+
+@media screen and (max-width: 500px) { 
+    #title_chance{
+        padding: 0.5rem 0.15rem;
+    }
+
+    #chance_items{
+        max-width: 20rem;
+    }
+    #chance_movie{
+        width: 20rem;
+        height: 13rem;
+    }
+    #chance_description{
+        font-size: 1.5rem;
+    }
+
+    #chance_text{
+        font-size: 0.7rem;
+        width: 20rem;
+    }
+}

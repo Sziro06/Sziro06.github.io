@@ -1,0 +1,55 @@
+#stovner{
+    display: grid;
+    place-items: center;
+    margin-top: 4rem;
+}
+
+#title_stovner{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 14.5rem;
+}
+
+#stovner_items{
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    max-width: 40rem;
+    height: 35rem;
+}
+
+#stovner_video{
+    z-index: -1;
+    width: 40rem;
+    height: 22.2rem;
+}
+
+#stovner_subtitle{
+    font-size: larger;
+}
+
+#stovner_text{
+    font-size: 1.1rem;
+    width: 40rem;
+    height: 10rem;
+    white-space: pre-line;
+    column-count: 3;
+    column-rule: 1px solid black;
+} 
+
+@media screen and (max-width: 700px) { 
+    #title_stovner{
+        padding: 0.5rem 7.5rem;
+    }
+    
+    #stovner_items{
+        max-width: 30rem;
+    }
+    #stovner_movie{
+        width: 30rem;
+        height: 17rem;
+    }
+    #stovner_text{
+        width: 30rem;
+    }
+}

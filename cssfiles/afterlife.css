@@ -1,0 +1,58 @@
+#afterlife{
+    display: grid;
+    place-items: center;
+    margin-top: 4rem;
+}
+
+#title_afterlife{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 14rem;
+}
+
+#afterlife_items{
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    max-width: 40rem;
+}
+
+#afterlife_trailer{
+    z-index: -1;
+    width: 40rem;
+    height: 22.2rem;
+}
+
+@media screen and (max-width: 700px) { 
+    #title_afterlife{
+        padding: 0.5rem 12rem;
+    }
+    
+    #afterlife_items{
+        max-width: 30rem;
+    }
+    #afterlife_trailer{
+        width: 30rem;
+        height: 17rem;
+    }
+}
+
+@media screen and (max-width: 500px) { 
+    #title_afterlife{
+        padding: 0.5rem 6.75rem;
+    }
+    
+    #afterlife_items{
+        max-width: 20rem;
+    }
+    #afterlife_trailer{
+        width: 20rem;
+        height: 13rem;
+    }
+
+    #afterlife_description{
+        margin: 0;
+    }
+}
+
+
