@@ -1,3 +1,4 @@
+/*
 #certifications{
     height: 110vh;
     position: relative;
@@ -45,7 +46,7 @@
 #tv_studio_badge{
     position: absolute;
     top: 36.4rem;
-    left: 76%;
+    left: 50%;
     font-size: larger;
     border: 4px solid #F20505;
     border-radius: 55px;
@@ -63,15 +64,15 @@
     padding: 0.4rem;
 }
 
-/* #tv_studio_badge_grid:hover{
+ #tv_studio_badge_grid:hover{
     border: 4px solid #F20505;
     color: #F20505;
-} */
+}
 
 #graphic_badge{
     position: absolute;
     top: 36.4rem;
-    left: 21%;
+    left: 50%;
     font-size: 1.5rem;
     border: 4px solid #F29F05;
     border-radius: 55px;
@@ -89,15 +90,15 @@
     text-decoration: none;
 }
 
-/* #graphic_badge_grid:hover{
+ #graphic_badge_grid:hover{
     border: 4px solid #F29F05;
     color: #F29F05;
-} */
+}
 
 #photography_badge{
     position: absolute;
     top: 36.4rem;
-    left: 51%;
+    left: 50%;
     font-size: 1.5rem;
     border: 4px solid #38f205;
     border-radius: 55px;
@@ -109,11 +110,11 @@
     font-size: 1.5rem;
     border: 4px solid gray;
     border-radius: 55px;
-    color: gray; /* rgb(250, 250, 250) */
+    color: gray;  rgb(250, 250, 250)
     padding: 0.4rem;
 }
 
-/* #photography_badge_grid:hover{
+ #photography_badge_grid:hover{
     border: 4px solid #38f205;
     color: #38f205;
 } */
