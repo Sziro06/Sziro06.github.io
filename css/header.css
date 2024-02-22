@@ -17,7 +17,7 @@ header h1{
     text-decoration: underline;
     position: absolute;
     font-size: 4rem;
-    left: 39.7rem;
+    left: 44.5%;
 }
 
 header p{
@@ -26,6 +26,6 @@ header p{
     font-size: 1.2rem;
     line-height: 2rem;
     top: 7.7rem;
-    left: 40rem;
+    left: 44.5%;
     right: 18%;
 }
