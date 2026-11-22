@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,59 +11,66 @@
 </head>
 <body>
 
-
     <!-- NAVBAR AND VIDEO -->
 
- 
-<header class="hero">
+    <header class="hero">
 
-    <nav>
-        <ul>
-            <li><h1>Hüseyin Özdemir</h1></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#work">Work</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <ul>
+                <li><h1>Hüseyin Özdemir</h1></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+            </ul>
+        </nav>
 
-    <div class="video-background">
-        <iframe
-            src="https://player.vimeo.com/video/1056297945?autopause=0&autoplay=1&muted=1&loop=1&background=1&playsinline=1"
-            allow="autoplay; fullscreen; picture-in-picture"
-            allowfullscreen>
-        </iframe>
-    </div>
+        <!-- VIDEO BACKGROUND -->
 
-</header>
+        <div class="video-background">
 
+            <iframe
+                id="backgroundVideo"
+                title="Background video"
+                src="https://player.vimeo.com/video/1056297945?autopause=0&autoplay=1&muted=1&loop=1&background=1&playsinline=1"
+                allow="autoplay; fullscreen; picture-in-picture">
+            </iframe>
 
+            <button id="playVideo" class="play-video">
+                Play background video
+            </button>
 
+        </div>
 
-
+    </header>
 
 
     <!-- ABOUT -->
 
     <div class="about" id="about">
-         <img id="profile_img" src="https://res.cloudinary.com/lymefd97/image/upload/v1795353502/profile.png" alt="Picture of me">
+
+        <img id="profile_img"
+             src="https://res.cloudinary.com/lymefd97/image/upload/v1795353502/profile.png"
+             alt="Picture of me">
+
         <p>
-            Hüseyin Özdemir is a film director and screenwriter with a strong interest in visual storytelling. 
-            He is Turkish and grew up watching animated films, which helped shape his creativity and unique way of seeing the world. 
-            <br>
-            <br>
-            He is especially interested in exploring themes such as belonging, identity and finding one's place in society. He likes 
-            to explore how a person's background, opportunities and privileges can affect their sense of belonging. 
-            <br>
-            <br>
-            His films have been screened at Vega Scene, as well as at several national and international film festivals. As a freelance 
-            filmmaker, he is open to different creative projects and collaborations. He enjoys taking part in film events, courses and 
+            Hüseyin Özdemir is a film director and screenwriter with a strong interest in visual storytelling.
+            He is Turkish and grew up watching animated films, which helped shape his creativity and unique way of seeing the world.
+
+            <br><br>
+
+            He is especially interested in exploring themes such as belonging, identity and finding one's place in society. He likes
+            to explore how a person's background, opportunities and privileges can affect their sense of belonging.
+
+            <br><br>
+
+            His films have been screened at Vega Scene, as well as at several national and international film festivals. As a freelance
+            filmmaker, he is open to different creative projects and collaborations. He enjoys taking part in film events, courses and
             workshops to improve his skills, learn from others and build connections within the film industry.
         </p>
+
     </div>
 
 
-
-
-<!-- WORK -->
+    <!-- WORK -->
 
     <div class="work" id="work">
 
@@ -74,24 +80,26 @@
 
             <div class="film">
                 <h2>Infeksjon</h2>
-                <img src="https://res.cloudinary.com/lymefd97/image/upload/v1795219490/infeksjonplakat2.png" alt="Infeksjon film poster">
+                <img src="https://res.cloudinary.com/lymefd97/image/upload/v1795219490/infeksjonplakat2.png"
+                     alt="Infeksjon film poster">
             </div>
 
             <div class="film">
                 <h2>Englestøv</h2>
-                <img src="https://res.cloudinary.com/lymefd97/image/upload/v1795218354/englestovplakat.png" alt="Englestøv film poster">
+                <img src="https://res.cloudinary.com/lymefd97/image/upload/v1795218354/englestovplakat.png"
+                     alt="Englestøv film poster">
             </div>
 
-            <!-- <div class="film">
+            <!--
+            <div class="film">
                 <h2>Plagsomme</h2>
                 <img src="plagsomme.jpg" alt="Plagsomme film poster">
-            </div> -->
+            </div>
+            -->
 
         </div>
 
     </div>
-
-
 
 
     <!-- FOOTER -->
@@ -107,7 +115,7 @@
 
             <div class="footer-info">
                 <h3>Business</h3>
-                <p>Org.nr:  938 828 938</p>
+                <p>Org.nr: 938 828 938</p>
             </div>
 
             <div class="footer-socials">
@@ -132,5 +140,31 @@
 
     </footer>
 
+
+    <!-- VIMEO PLAYER JAVASCRIPT -->
+
+    <script src="https://player.vimeo.com/api/player.js"></script>
+
+    <script>
+        const iframe = document.getElementById("backgroundVideo");
+        const player = new Vimeo.Player(iframe);
+        const button = document.getElementById("playVideo");
+
+        player.play().then(() => {
+            button.style.display = "none";
+        }).catch(() => {
+            button.style.display = "block";
+        });
+
+        button.addEventListener("click", () => {
+            player.play().then(() => {
+                button.style.display = "none";
+            }).catch(error => {
+                console.log("Video playback failed:", error);
+            });
+        });
+    </script>
+
 </body>
 </html>
+```
