@@ -1,20 +1,21 @@
-.about{
+
+.about {
     position: relative;
     top: 7rem;
     height: 80vh;
-    
 }
 
-.about img{
+.about img {
     width: 22rem;
     height: 27.5rem;
     position: absolute;
     left: 15%;
     top: 1.5rem;
     border: 1px solid rgb(250, 250, 250);
+    object-fit: cover;
 }
 
-.about p{
+.about p {
     color: rgb(250, 250, 250);
     position: absolute;
     font-size: 1.2rem;
@@ -22,4 +23,41 @@
     left: 44.5%;
     right: 18%;
     font-family: Arial, sans-serif;
+}
+
+/* Mobile format */
+@media screen and (max-width: 768px) {
+
+    .about {
+        top: 3rem;
+        height: auto;
+        padding: 0 1.5rem 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .about img {
+        position: relative;
+        width: 70%;
+        max-width: 22rem;
+        height: auto;
+        aspect-ratio: 4 / 5;
+        left: auto;
+        top: auto;
+        object-fit: cover;
+    }
+
+    .about p {
+        position: relative;
+        left: auto;
+        right: auto;
+        width: 100%;
+        max-width: 35rem;
+        font-size: 1rem;
+        line-height: 1.7rem;
+        text-align: left;
+        margin: 0;
+    }
 }
