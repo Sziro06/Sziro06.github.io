@@ -1,0 +1,39 @@
+.work {
+    background-color: #111;
+    color: white;
+    padding: 80px 7%;
+    font-family: Arial, sans-serif;
+}
+
+.work h1 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.film-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.film h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.film img {
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+    display: block;
+    border: 1px solid white;
+}
+
+@media (max-width: 768px) {
+    .film-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}

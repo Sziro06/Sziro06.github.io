@@ -1,0 +1,96 @@
+/* NAVBAR AND VIDEO */
+
+html,
+body {
+    scroll-behavior: smooth;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+}
+
+/* Hero section */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Navbar */
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0;
+    box-sizing: border-box;
+    z-index: 10;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        transparent
+    );
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0 4rem;
+    gap: 4rem;
+}
+
+nav ul li:first-child {
+    margin-right: auto;
+}
+
+nav ul h1{
+    font-family: "Birds of Paradise", cursive;
+}
+
+nav ul h1,
+nav ul li a {
+    color: white;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #888;
+}
+
+/* Video background */
+.video-background {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.video-background iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 56.25vw;
+    min-width: 177.78vh;
+    min-height: 100vh;
+    transform: translate(-50%, -50%);
+    border: 0;
+    pointer-events: none;
+}
+
+.video-background::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    pointer-events: none;
+}

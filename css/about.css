@@ -1,0 +1,25 @@
+.about{
+    position: relative;
+    top: 7rem;
+    height: 80vh;
+    
+}
+
+.about img{
+    width: 22rem;
+    height: 27.5rem;
+    position: absolute;
+    left: 15%;
+    top: 1.5rem;
+    border: 1px solid rgb(250, 250, 250);
+}
+
+.about p{
+    color: rgb(250, 250, 250);
+    position: absolute;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    left: 44.5%;
+    right: 18%;
+    font-family: Arial, sans-serif;
+}
